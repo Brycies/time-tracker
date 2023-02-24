@@ -1,0 +1,212 @@
+body {
+  background-color: hsl(226, 43%, 10%);
+  font-size: 13px;
+  font-family: arial;
+}
+p {
+  color: white;
+}
+div.main-cnt {
+  margin: 150px 0px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+.report-cnt {
+  width: 200px;
+  height: 400px;
+}
+div.name-cnt {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 46%);
+  filter: opacity(100%);
+}
+img.logo {
+  width: 50px;
+  margin: 20px 0px 0px 30px;
+}
+p.report {
+  color: rgb(209, 203, 203);
+  margin-left: 30px;
+}
+p.name {
+  font-size: 25px;
+  margin-top: 0px;
+  margin-left: 30px;
+  line-height: 40px;
+}
+div.time-cnt {
+  width: 180px;
+  height: 120px;
+  margin-top: -20px;
+  padding: 30px 0px 0px 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+}
+p.daily,
+p.monthly {
+  font-weight: bold;
+  font-size: 14px;
+  color: hsl(236, 83%, 7%);
+}
+p.weekly {
+  font-size: 14px;
+  font-weight: 400;
+}
+div.track-cnt {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 600px;
+}
+div.top-cnt {
+  display: flex;
+  flex-direction: row;
+  width: 650px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+.work-div {
+  width: 180px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: hsl(15, 100%, 70%);
+}
+.work-logo,
+.play-logo,
+.study-logo,
+.exercise-logo,
+.social-logo,
+.selfcare-logo {
+  width: 50px;
+  float: right;
+  margin-right: 20px;
+}
+.elipsis-icon {
+  width: 20px;
+  float: right;
+  margin-right: -50px;
+  margin-top: 15px;
+  border: 1px solid white;
+}
+p.activity {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+p.amount {
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+p.covered-time {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: -20px;
+  color: rgb(188, 178, 178);
+}
+
+div.work-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-right: 100px;
+  border-radius: 10px;
+  border: 1px solid white;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
+
+.play-div {
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: hsl(195, 74%, 62%);
+}
+
+div.play-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
+.study-div {
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: hsl(348, 100%, 68%);
+}
+div.study-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
+div.bottom-cnt {
+  display: flex;
+  flex-direction: row;
+  width: 550px;
+  height: 100px;
+  margin-top: 0px;
+}
+.exercise-div {
+  width: 180px;
+  height: 50px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(145, 58%, 55%);
+}
+div.exercise-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
+
+.social-div {
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: hsl(264, 64%, 52%);
+}
+div.social-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
+.selfcare-div {
+  width: 180px;
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: hsl(43, 84%, 65%);
+}
+div.selfcare-cnt {
+  width: 180px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 0px;
+  border-radius: 10px;
+  background-color: hsl(235, 46%, 20%);
+  filter: opacity(100%);
+}
