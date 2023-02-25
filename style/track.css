@@ -25,6 +25,8 @@ div.name-cnt {
 }
 img.logo {
   width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
   margin: 20px 0px 0px 30px;
 }
 p.report {
