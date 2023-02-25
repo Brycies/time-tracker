@@ -89,16 +89,37 @@ div.top-cnt {
   width: 20px;
   float: right;
   margin-right: -50px;
-  margin-top: 15px;
-  border: 1px solid white;
+  margin-top: 25px;
 }
-p.activity {
+p.work-activity {
   font-weight: bold;
-  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 25px;
   margin-left: 20px;
+  width: 35px;
 }
+
+p.play-activity,
+p.study-activity,
+p.exercise-activity,
+p.social-activity,
+p.selfcare-activity {
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: -20px;
+  margin-left: 20px;
+  width: 50px;
+  height: 40px;
+}
+
 p.amount {
-  font-size: 30px;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 0px;
+}
+p.study-amount {
+  font-size: 40px;
   margin-left: 20px;
   margin-top: 20px;
   padding-top: 0px;
@@ -106,7 +127,7 @@ p.amount {
 p.covered-time {
   font-size: 12px;
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: -30px;
   color: rgb(188, 178, 178);
 }
 
@@ -116,7 +137,6 @@ div.work-cnt {
   margin-top: 30px;
   margin-right: 100px;
   border-radius: 10px;
-  border: 1px solid white;
   background-color: hsl(235, 46%, 20%);
   filter: opacity(100%);
 }
